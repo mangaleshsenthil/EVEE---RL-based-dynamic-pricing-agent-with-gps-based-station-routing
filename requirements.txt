@@ -1,0 +1,23 @@
+# ─────────────────────────────────────────────────────────────
+# requirements.txt — EVEE Dynamic Pricing Agent
+# Pin major versions for reproducible Docker builds
+# ─────────────────────────────────────────────────────────────
+
+# Web framework
+streamlit>=1.35,<2.0
+
+# Data & visualisation
+numpy>=1.26,<2.0
+pandas>=2.0,<3.0
+plotly>=5.20,<6.0
+
+# Machine Learning (RL models)
+torch>=2.0,<3.0
+stable-baselines3>=2.3,<3.0
+gymnasium>=0.29,<1.0
+
+# Database
+psycopg2-binary>=2.9,<3.0
+
+# HTTP
+requests>=2.31,<3.0
